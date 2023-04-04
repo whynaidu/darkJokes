@@ -1,0 +1,13 @@
+{
+    "name":"Dark Jokes",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"logo.png"
+    },
+    "permissions":["activetab"],
+    "icons":{
+        "128":"logo.png"
+    }
+}

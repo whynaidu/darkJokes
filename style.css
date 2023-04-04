@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 300px;
+    background-color: #272727;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#jokeElement{
+
+    overflow-y: auto;
+    min-height: 200px;
+    max-height: 200px;
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+#smile{
+    padding-top:30px;
+    font-size: 20px;
+}
+
+
+.scrollbar-hide::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+      background: #9800d0; 
+
+    /* display: none; */
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+::-webkit-scrollbar {
+
+  width: 10px;
+}
+
+
+/* Track */
+.scrollbar-hide::-webkit-scrollbar-track {
+        border-radius: 8px;
+
+  background: #666565; 
+}
